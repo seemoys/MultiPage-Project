@@ -1,0 +1,142 @@
+
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Dela+Gothic+One&family=Fredoka+One&family=Indie+Flower&family=Kalam&family=Lobster&family=Lobster+Two:ital@1&family=Macondo&family=Nunito&family=Playball&family=Poppins:wght@400;500&family=Rajdhani&family=Raleway:wght@200&family=Red+Rose&family=Righteous&family=Unbounded:wght@500&display=swap');
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #f0f4f5;
+    max-width: 1440px;
+    max-height: 100vh;
+    background-image: url(./Assets/stethoscope.png);
+    background-size:37%;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 120px;
+    /* background-color: #000000; */
+  }
+  li{
+    list-style: none;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Macondo', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-top:1px solid #20bc7e; ;
+    /* border-left:2px solid #20bc7e; ; */
+    border-bottom:1px solid #20bc7e; ;
+  }
+    ul li a:hover{
+      font-size:25px;
+    }
+  /* hero */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 100%;
+    
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.tag-line h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: start;
+    margin-right: 150px;
+    line-height: 65px;
+}
+.info-line p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 155px;
+    
+
+}
+button{
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: #20bc7e;
+    font-size:20px;
+    font-family: 'Kalam', cursive;
+    font-weight: 550;
+    color: aliceblue;
+    position: relative;
+    right: 185px;
+    cursor: pointer;
+}
+button:hover{
+  background-color: #ffffff;
+  color: #20bc7e;
+  border: 1px solid #20bc7e;
+}
+.top-angle img{
+    position: relative;
+    right: 290px;
+}
+/* right hero */
+.hero-right{
+    position: relative;
+    width: 45%;
+}
+.right-hero-img img:nth-child(1){
+    height: 525px;
+    width: 420px;
+    position: absolute;
+    left:0px;
+    z-index: 3;
+    
+}
+.right-hero-img img:nth-child(2){
+    height: 50%px;
+    width: 70%;
+    position: absolute;
+    bottom: 50px;
+    left:25px;
+    z-index: 1;
+    
+}
+.right-hero-img img:nth-child(3){
+    height: 54%;;
+    width: 50%;
+    position: absolute;
+    top: 240px;
+    left:220px;
+    z-index: 2;
+    
+}

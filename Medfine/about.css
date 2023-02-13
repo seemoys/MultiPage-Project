@@ -1,0 +1,111 @@
+
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&family=Dela+Gothic+One&family=Fredoka+One&family=Indie+Flower&family=Kalam&family=Lobster&family=Lobster+Two:ital@1&family=Macondo&family=Nunito&family=Playball&family=Poppins:wght@400;500&family=Rajdhani&family=Raleway:wght@200&family=Red+Rose&family=Righteous&family=Unbounded:wght@500&display=swap');
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #f0f4f5;
+    max-width: 1440px;
+    max-height: 100vh;
+    background-image: url(./Assets/stethoscope.png);
+    background-size:37%;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 120px;
+    /* background-color: #000000; */
+  }
+  li{
+    list-style: none;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Macondo', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-top:1px solid #20bc7e; ;
+    /* border-left:2px solid #20bc7e; ; */
+    border-bottom:1px solid #20bc7e; ;
+  }
+  ul li a:hover{
+      font-size:25px;
+    }
+  /* hero */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    margin-bottom: 10px;
+}
+.heading h1{
+    font-family: 'Red Rose', cursive;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    color: #20BC7E;
+}
+.paragraph p{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size:25px;
+    padding: 5px 250px;
+    font-weight: 600;
+}
+.customer{
+    display: flex;
+    margin-top: 25px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.customer div:nth-child(1){
+    box-shadow: 0 0 10px black;
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    text-align: center;
+}
+.customer div:nth-child(2){
+    box-shadow: 0 0 10px black;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.customer div:nth-child(3){
+    box-shadow: 0 0 10px black;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.customer div h2{
+    color: #20BC7E;
+}
+.customer div h3{
+    font-family: 'Kalam', cursive;
+    font-weight: 500;
+    font-size: 20px;
+
+}
